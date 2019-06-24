@@ -12,4 +12,4 @@ export interface ValidationResponse {
     bech32: false;
 }
 
-export function validateBtcAddress(address: any): ValidationResponse | boolean;
+export default function validateBtcAddress(address: any): ValidationResponse | boolean;
